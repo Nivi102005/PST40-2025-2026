@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="largest amoung three numbers"/>
+        <attribute name="authors" value="NIVITHRASRI V"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-07 10:57:15 AM"/>
+        <attribute name="created" value="TklWSVRIUkFTUkkgVjtERVNLVE9QLUM1RUVIRTI7MjAyNi0wMS0wNzsxMDo1Mjo1MSBBTTszMjYy"/>
+        <attribute name="edited" value="TklWSVRIUkFTUkkgVjtERVNLVE9QLUM1RUVIRTI7MjAyNi0wMS0wNzsxMDo1NzoxNSBBTTsxOzMzNzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <if expression="a&gt;=b&amp;&amp;a&gt;=c">
+                <then>
+                    <output expression="&quot;largest number is a&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="(b&gt;=a&amp;&amp;b&gt;=c)">
+                <then>
+                    <output expression="&quot;b is a largest number&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;c is the largest number&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
