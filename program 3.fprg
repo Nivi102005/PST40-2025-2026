@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="program 3"/>
+        <attribute name="authors" value="NIVITHRASRI V"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 10:34:03 AM"/>
+        <attribute name="created" value="TklWSVRIUkFTUkkgVjtERVNLVE9QLUM1RUVIRTI7MjAyNi0wMS0wNjsxMDoyMzowMiBBTTszMjU1"/>
+        <attribute name="edited" value="TklWSVRIUkFTUkkgVjtERVNLVE9QLUM1RUVIRTI7MjAyNi0wMS0wNjsxMDozNDowMyBBTTsxOzMzNjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <assign variable="num1" expression="4"/>
+            <assign variable="num2" expression="10"/>
+            <if expression="num1&gt;=num2">
+                <then>
+                    <output expression="&quot;num1 is greater than num2&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;num1 is lesser than num2&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
