@@ -1,0 +1,23 @@
+package pst;
+
+public class horizontalpattern{
+	    public static void main(String[] args) {
+	        int n = 20;
+
+	        for (int i = 1; i <= n; i++) {
+	            System.out.print("*");
+	        }
+	    }
+	}
+
+class classverticalpattern{
+	
+	void vertical() {
+		int n=20;
+		for(int i=1;i<=n;i++) {
+			System.out.print("*");
+		}
+	}
+	
+}
+
